@@ -1,0 +1,7 @@
+nome = input ("Qual seu nome?")
+idade = input ('Atualmente você tem quantos anos?')
+altura = input float ("Qual sua altura?")
+peso = input float ("Qual seu peso")
+#Calculo do IMC (** para elevar )
+imc = (peso/(altura**2))
+print("Prezado, {} seu IMC atual é:{}".format(nome,imc))
